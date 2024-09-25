@@ -2,8 +2,8 @@
   "manifestVersion": 1,
   "id": "Kotak-Gates",
   "name": "Kotak Gate",
-  "publisher": "Satish Kini",
-  "version": "0.0.0",
+  "publisher": "sanketdesai",
+  "version": "0.0.21",
   "description": "Integrate Management with Azure Pipelines",
   "categories": [
     "Azure Pipelines"
@@ -62,9 +62,6 @@
     },  
     {
       "path": "Tasks/CreateAndQueryChangeRequest"
-    },
-    {
-      "path": "Tasks/UpdateChangeRequest"
     }
   ],
   "content": {
@@ -266,16 +263,6 @@
           }
         ],
         "helpMarkDown": "<a href=\"https://github.com/albert-salman/az-devops-now\" target=\"_blank\"><b>Learn More about this ServiceNow integration</b></a>"
-      }
-    },
-    {
-      "id": "KotakGates-update-task",
-      "type": "ms.vss-distributed-task.task",
-      "targets": [
-        "ms.vss-distributed-task.tasks"
-      ],
-      "properties": {
-        "name": "Tasks/UpdateChangeRequest"
       }
     },
     {
